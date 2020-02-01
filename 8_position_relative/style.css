@@ -35,15 +35,26 @@ body {
     margin: 1%;
     padding: 1%;
     height: 140px;
+    position: relative;
+}
+
+.service:nth-child(1) {
+    top: 5px;
+}
+
+.service:nth-child(2) {
+    top: 15px;
+}
+
+.service:nth-child(3) {
+    top: 25px;
 }
 
 .content {
     padding: 20px;
     clear: left;
     margin: 20px 1%;
-    position: relative; /*do not interrupt normal document flow*/
-    left: 50px;
-    top: 300px;
+
 }
 
 .content p {
