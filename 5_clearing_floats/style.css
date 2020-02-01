@@ -16,6 +16,12 @@ body {
     clear: both;
 }
 
+.services:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .service h2, .service p {
     color: #999;
     margin: 10px 0;
@@ -35,5 +41,5 @@ body {
     padding: 20px;
     background: #ccc;
     clear: left;
-    margin-top: 100px;
+    margin-top: 50px;
 }
