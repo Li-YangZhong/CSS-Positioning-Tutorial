@@ -16,7 +16,23 @@ body {
     clear: both;
 }
 
-img {
-    float: left;
-    margin: 10px;
+.blue {
+    background: blue;
+    float:right;
+}
+
+.red {
+    background: red;
+    float: right;
+
+}
+
+.green {
+    background: green;
+    float: right;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
 }
